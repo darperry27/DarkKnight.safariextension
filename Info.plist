@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Darryl Perry</string>
+	<key>Builder Version</key>
+	<string>14606.3.4</string>
+	<key>CFBundleDisplayName</key>
+	<string>DarkKnight</string>
+	<key>CFBundleIdentifier</key>
+	<string>io.github.darperry27</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Database Quota</key>
+		<integer>10485760</integer>
+		<key>Global Page</key>
+		<string>index.html</string>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string>Lights</string>
+				<key>Identifier</key>
+				<string>Lights</string>
+				<key>Image</key>
+				<string>tool.png</string>
+				<key>Include By Default</key>
+				<true/>
+				<key>Label</key>
+				<string>DarkKnight</string>
+				<key>Palette Label</key>
+				<string>DarkKnight</string>
+				<key>Tool Tip</key>
+				<string>DarkKnight</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>js/light_settings.js</string>
+				<string>js/light.js</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>DarkKnight Safari is a browser add-on that helps you turn the screen to dark at night time.</string>
+	<key>DeveloperIdentifier</key>
+	<string>76NLHS5G74</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>https://darperry27.github.io/</string>
+</dict>
+</plist>
